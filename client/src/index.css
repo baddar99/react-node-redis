@@ -87,11 +87,21 @@ button:focus-visible {
 }
 
 .search-input {
-  max-width: 300px;
+  max-width: 350px;
   font-size: 1.2rem;
+  margin: 0 auto;
 }
 .input-group-text .fa-search {
   font-size: 1.2rem;
+}
+
+.result-item {
+  margin: 20px;
+}
+
+.history-list {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 @media (prefers-color-scheme: light) {

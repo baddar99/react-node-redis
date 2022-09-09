@@ -1,14 +1,18 @@
 import axios from "axios";
 import InputSearch from "./InputSearch";
-// import ResultItem from './ResultItem.vue'
-// import History from './History.vue'
-// import Panel from './Panel.vue'
+import Result from "./Result";
+import History from "./History";
+import Panel from "./Panel";
 // import { storeLastNonCached } from '@/storage'
 
 function Layout() {
   return (
     <>
       <InputSearch />
+      <Result />
+      <Panel />
+      <History />
+
       <div className="example">
         <div className="note">
           Note: After you search for a github account, click "Search again" to
